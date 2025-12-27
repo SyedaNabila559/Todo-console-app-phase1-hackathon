@@ -27,8 +27,10 @@ Works on Windows, macOS, and Linux
 Phase1/
 ├── README.md          # Project documentation
 ├── CLAUDE.md          # Project constitution (Spec-Driven Development)
+
 ├── specs/
 │   └── phase1.md      # Phase 1 requirements
+
 └── src/
     └── todo_app.py    # Main Python application
 
@@ -38,11 +40,6 @@ Phase1/
 Open terminal / PowerShell and run:
 
 python --version
-
-
-or
-
-python3 --version
 
 2️⃣ Navigate to Project Folder
 cd Phase1
@@ -111,7 +108,7 @@ Let's manage your tasks easily and efficiently. 🙌
 ID    Status       Description
 1     🕒 Pending   Learn Python
 
-⚠️ Error Handling
+# ⚠️ Error Handling
 
 The app safely handles:
 
@@ -138,7 +135,7 @@ Task Structure:
 
 ID System: Auto-incrementing IDs
 
-📌 Limitations
+# 📌 Limitations
 
 Data is not saved permanently
 
